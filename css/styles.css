@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(237, 211, 19);    
+}
+
+/* Overall Header */
+
+.topbarContainer{
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr;          
+       
+}
+
+.backgroundColorOne{
+    background: white;
+    height: 40vh;    
+}
+
+/* Left Side of Banner */
+.headerContainer{    
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headerContainer li{
+    list-style: none;
+    text-decoration: none;        
+}
+
+.highlightItTxt{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+/* Nav Side of Banner */
+.navContainer{    
+    margin-top: 20px;
+    font-size: small;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;      
+}
+
+.navContainer li{
+    justify-self: flex-end;
+    list-style: none;
+    text-decoration: none;        
+}
+
+.yellowHighlight{
+    background: rgb(237, 211, 19);
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Central Container */
+
+.centralContainer{               
+    margin: 20vh 10vh 10vh 10vh;
+    height: 60vh;    
+    display: grid;    
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+}
